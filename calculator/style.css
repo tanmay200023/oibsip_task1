@@ -1,0 +1,36 @@
+html, body {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;  
+}
+
+.button {
+    padding: 20px;
+    background: #d29712;
+    width: 60px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 23px;
+    display:inline-block;
+    justify-content: center;
+transition: 0.5s;
+}
+.button:hover{
+  color: antiquewhite;
+    background: black;
+}
+
+.row{
+    margin: 6px 0;
+    align-items: center;
+}
+
+.row input{
+    font-size: 20px;
+    margin: 0;
+    width: 198px;
+    padding: 10px 38px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
